@@ -1,0 +1,50 @@
+html
+					REFERIRSE
+		_head: referirse a el nombre de la web.
+		_body: La pagina.
+
+					NOMBRE DE LA WEB
+		_title: ponerle nombre a la web
+		_link rel="shortcut icon". type="image/x-icon" href="Link": Icono.
+		_
+	
+					TEXTO
+		_h1:titulos.
+		_p: parrafos.
+		_br/: espacios.
+		_i: italica.
+		_b negritas.
+		_span: resaltar para el buscador.
+		_strong: b y span.
+		_cite: citar autor.
+		_blockquote: contenido de citas.
+		_hr/ poner linea
+
+					ENLACES
+		_a href="Link" /a: enlace a otra pagina.
+			_target="blank": Se abre en otra pestaña.
+		_link rel="stylesheet" href="Archivo": enlace a archivos js o css.
+		_script src="ARCHIVO": para ejecutar archivos js.
+		_a href="mailto:joaquingarcia011@hotmail.com": enviar correo(No es buena manera).
+			_title="texto": descripcion al pasar mouse.
+
+					LISTAS
+		_ul: Crea lista desordenada.
+		_ol: crea lista ordenada.
+		_li: agrega item a la lista.
+
+					IMAGENES
+		_img src="Link" /: agregar imagen.
+			_width="x": ancho de imagen.
+			_height="x": alto de imagen.
+			_alt="texto": muestra texto en caso de no encontrar imagen(Necesario).
+			_title="texto": descripcion al pasar mouse.
+
+					TABLAS
+		_table: crea tabla
+		_tr: crea fila
+		_td: crea columna
+
+
+
+
