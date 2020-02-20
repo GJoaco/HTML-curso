@@ -1,7 +1,16 @@
 html
-					REFERIRSE
+					ESTRUCTURA
 		_head: referirse a el nombre de la web.
 		_body: La pagina.
+			_div "ID":agregar imagenes videos
+			_header: Encabezado.
+			_nav:menu(listas)
+			_section:seccion
+				class(wrapper, main:Contenido importante)
+				-article: agregar articulo, contenido importante
+				aside:contenido secundario
+			_footer: pie de pagina
+
 
 					NOMBRE DE LA WEB
 		_title: ponerle nombre a la web
@@ -19,6 +28,8 @@ html
 		_cite: citar autor.
 		_blockquote: contenido de citas.
 		_hr/ poner linea
+		-center: centrar.
+		-input type="text"  placeholder="..." id="...": Cuadros de texto
 
 					ENLACES
 		_a href="Link" /a: enlace a otra pagina.
@@ -45,6 +56,22 @@ html
 		_tr: crea fila
 		_td: crea columna
 
+					FORMULARIOS
 
+		_form: crea formulario
+		_imput: Entrada
+			_type: tipo de entrada(text,password,email,checkbox,radio,button,submit,select+optionValue,color,range)
+		_placehold:"Escribe tu nombre"
+		_value: escribe sobre el cuadro.
+		_size:tamaño.
+		_maxlenght:maximo de caracteres.
+		_name: variable
 
+					METADATOS
+			Siempre dentro de head
+		_meta name"" content""
+			Description(Descripcion de la pagina)
+			keywords(Palabras clave)
 
+		link rel="stylesheet" type="text/css" href=estilos.css: Agregar hoja de estilos
+		_script src="...": linkear archivo java
